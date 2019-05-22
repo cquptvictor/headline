@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>登录</title>
+
+<style>
+div{
+    text-align: center;
+    position: relative;
+    top:100px;
+    font-size: 30px;
+}
+</style>
+</head>
+<body>
+<div>
+<form action='' method="POST">
+    <label for="1">关注者</label><br/> <!-- label 元素内点击文本，就会触发此控件。就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。-->
+    <input type="text" name="username" id="1" value="victor"/><br/>
+    被关注者:<br/>
+    <input type="text" name="followName"/>
+    <br/>
+    <label for="1">验证码</label><br/>
+    <input type="text" name="auth_code" id="1" value="victor"/><br/>
+
+    <input type="submit" value="提交"/>
+</form>
+</div>
+</body>
+</html>
