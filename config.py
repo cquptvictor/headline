@@ -1,7 +1,7 @@
 DIALECT='mysql'
 DRIVER='pymysql'
 USERNAME="root"
-PASSWORD="202106"
+PASSWORD="数据库密码"
 HOST="127.0.0.1"
 PORT="3306"
 DATABASE="headline"
@@ -12,9 +12,9 @@ SQLALCHEMY_TRACK_MODIFICATIONS=False
 MAIL_PORT='465'
 MAIL_USE_SSL=True
 MAIL_SERVER="smtp.qq.com"
-MAIL_USERNAME="943382615@qq.com"
-MAIL_PASSWORD="vojqhaqghrrrbfei"
-MAIL_DEFAULT_SENDER=("理论头条","943382615@qq.com")
+MAIL_USERNAME="你的邮箱"
+MAIL_PASSWORD="密码"
+MAIL_DEFAULT_SENDER=("理论头条","邮箱")
 
 UPLOAD_PATH="./static/img/"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
